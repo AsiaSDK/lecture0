@@ -1,0 +1,47 @@
+.as{
+    width: 200px;
+    height: 200px;
+    background-color: #DDD;
+    margin: 20px auto;
+/* حافة مستديرة*/
+/* اذ الطول يساوي العرض فالدائرة مستديرةمثلا 50بالمية او 100بكسل */
+    border-radius: 100px; /* 10px 10px 10px 10px  معناها من 4 جهات  */
+    background-color: aqua;
+    background-image: url(user.png);
+/*عمل شدو من الجهتين*/
+    box-shadow:-5px -5px 8px #f00,5px 5px 8px #f00;
+
+}
+
+
+.aa{
+    width: 200px;
+    height: 200px;
+    background-color: #DDD;
+    margin: 200px auto;
+/* حافة مستديرة*/
+/* اذ الطول يساوي العرض فالدائرة مستديرةمثلا 50بالمية او 100بكسل */
+    border-radius: 100px; /* 10px 10px 10px 10px  معناها من 4 جهات  */
+    background-color: rgb(11, 184, 103);
+     /*لعمل ضل من جهة اليسار  */
+    box-shadow: -10px  -10px #DDD;
+}
+
+
+
+.asia{
+    width: 200px;
+    height: 200px;
+    margin: 50px auto;
+    background-color: rgb(208, 223, 76);
+    
+/* حافة مستديرة*/
+/* اذ الطول يساوي العرض فالدائرة مستديرةمثلا 50بالمية او 100بكسل */
+    border-radius: 10px 120px 10px 120px; /* 10px 10px 10px 10px  معناها من 4 جهات  */
+    /*   لعمل ضل من جهة اليمين  
+    يمكن التغيير بالقيم لتعطينا سمك مختلف واتجاه مختلف*/
+    box-shadow: 10px 10px  8px 5px #DDD inset;
+    
+}
+
+/* box-shadow : Horizontal Shadow | Vertical shadow | Blur| spread |color | inset;   */
